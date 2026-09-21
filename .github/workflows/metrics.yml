@@ -12,10 +12,25 @@ jobs:
       max-parallel: 1
       matrix:
         include:
-          - theme: dark
-            filename: assets/metrics-dark.svg
-          - theme: light
-            filename: assets/metrics.svg
+          # The rendered SVG has no background rect, so it inherits the page
+          # colour. Only the text and calendar palettes need a dark variant.
+          - filename: assets/metrics-dark.svg
+            css: |
+              svg { color: #c9d1d9 }
+              h1, h2, h3 { color: #00e5a0 }
+              .field svg { fill: #8b949e }
+              .calendar .day { outline-color: rgba(255, 255, 255, 0.04) }
+              :root {
+                --color-calendar-graph-day-bg: #161b22;
+                --color-calendar-graph-day-border: rgba(255, 255, 255, 0.05);
+                --color-calendar-graph-day-L1-bg: #0e4429;
+                --color-calendar-graph-day-L2-bg: #006d32;
+                --color-calendar-graph-day-L3-bg: #26a641;
+                --color-calendar-graph-day-L4-bg: #39d353;
+              }
+          - filename: assets/metrics.svg
+            css: |
+              h1, h2, h3 { color: #059669 }
     steps:
       - uses: lowlighter/metrics@v3.34
         with:
@@ -27,7 +42,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories
           config_timezone: America/Mexico_City
-          config_theme: ${{ matrix.theme }}
+          extras_css: ${{ matrix.css }}
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage
