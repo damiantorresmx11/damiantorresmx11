@@ -1,6 +1,9 @@
 <!-- Banner: custom SVG hosted in this repo (assets/header.svg) -->
 <p align="center">
-  <img src="./assets/header.svg" alt="Damian Torres — Founder & CEO @ DMLABS" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg"/>
+    <img src="./assets/header-light.svg" alt="Damian Torres — Founder &amp; CEO @ DMLABS" width="100%"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -157,7 +160,17 @@ export const damian = {
 <h3 align="center">📊 By the numbers</h3>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=damiantorresmx11&theme=dark&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&sideLabels=C9D1D9&dates=8B949E" alt="streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=damiantorresmx11&theme=dark&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&sideLabels=C9D1D9&dates=8B949E"/>
+    <img src="https://streak-stats.demolab.com?user=damiantorresmx11&theme=default&hide_border=true&background=FFFFFF&ring=059669&fire=059669&currStreakLabel=059669&sideLabels=475569&dates=64748B" alt="streak"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg"/>
+    <img src="./assets/metrics.svg" alt="metrics" width="100%"/>
+  </picture>
 </p>
 
 <picture>
