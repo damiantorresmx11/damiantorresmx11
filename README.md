@@ -131,19 +131,30 @@ export const damian = {
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/damiantorresmx11/Mannatech-Demo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=damiantorresmx11&repo=Mannatech-Demo&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&icon_color=00E5A0" alt="repo 1"/></a>
-  <a href="https://github.com/damiantorresmx11/trepacerros-blitz-gdl"><img src="https://github-readme-stats.vercel.app/api/pin/?username=damiantorresmx11&repo=trepacerros-blitz-gdl&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&icon_color=00E5A0" alt="repo 2"/></a>
-</p>
+<table align="center">
+<tr>
+<td align="center" width="50%">
+  <a href="https://github.com/damiantorresmx11/Mannatech-Demo">
+    <b>Mannatech Demo</b><br/>
+    <img src="https://img.shields.io/github/languages/top/damiantorresmx11/Mannatech-Demo?style=flat-square&color=00E5A0&labelColor=0B1220&label=lang" alt="lang"/>
+    <img src="https://img.shields.io/github/stars/damiantorresmx11/Mannatech-Demo?style=flat-square&color=00E5A0&labelColor=0B1220&label=stars" alt="stars"/>
+    <img src="https://img.shields.io/github/last-commit/damiantorresmx11/Mannatech-Demo?style=flat-square&color=00E5A0&labelColor=0B1220&label=updated" alt="updated"/>
+  </a>
+</td>
+<td align="center" width="50%">
+  <a href="https://github.com/damiantorresmx11/trepacerros-blitz-gdl">
+    <b>Trepacerros Blitz GDL</b><br/>
+    <img src="https://img.shields.io/github/languages/top/damiantorresmx11/trepacerros-blitz-gdl?style=flat-square&color=00E5A0&labelColor=0B1220&label=lang" alt="lang"/>
+    <img src="https://img.shields.io/github/stars/damiantorresmx11/trepacerros-blitz-gdl?style=flat-square&color=00E5A0&labelColor=0B1220&label=stars" alt="stars"/>
+    <img src="https://img.shields.io/github/last-commit/damiantorresmx11/trepacerros-blitz-gdl?style=flat-square&color=00E5A0&labelColor=0B1220&label=updated" alt="updated"/>
+  </a>
+</td>
+</tr>
+</table>
 
 <br/>
 
 <h3 align="center">📊 By the numbers</h3>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=damiantorresmx11&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&icon_color=00E5A0&text_color=C9D1D9" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=damiantorresmx11&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&text_color=C9D1D9" alt="langs"/>
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=damiantorresmx11&theme=dark&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&sideLabels=C9D1D9&dates=8B949E" alt="streak"/>
