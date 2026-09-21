@@ -132,7 +132,6 @@ export const damian = {
 </table>
 
 <p align="center">
-  <!-- Replace with real repos once public -->
   <a href="https://github.com/damiantorresmx11/Mannatech-Demo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=damiantorresmx11&repo=Mannatech-Demo&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&icon_color=00E5A0" alt="repo 1"/></a>
   <a href="https://github.com/damiantorresmx11/trepacerros-blitz-gdl"><img src="https://github-readme-stats.vercel.app/api/pin/?username=damiantorresmx11&repo=trepacerros-blitz-gdl&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5A0&icon_color=00E5A0" alt="repo 2"/></a>
 </p>
@@ -148,14 +147,6 @@ export const damian = {
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=damiantorresmx11&theme=dark&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0&sideLabels=C9D1D9&dates=8B949E" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=damiantorresmx11&theme=github-compact&hide_border=true&bg_color=0D1117&color=C9D1D9&line=00E5A0&point=22D3EE&area=true&area_color=00E5A0&radius=8" alt="activity"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=damiantorresmx11&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="trophies"/>
 </p>
 
 <picture>
